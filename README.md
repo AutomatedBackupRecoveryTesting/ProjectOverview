@@ -10,6 +10,8 @@ Based on an analysis of the company's current IT infrastructure and operations, 
 
 With the specific needs of the company identified, **the goal of this project is to assess and validate the effectiveness of the client’s current second-level recovery system. The proposed solution is an automated AWS framework that leverages AWS CloudFormation for infrastructure as code, AWS Lambda for serverless compute, and AWS Backup for data backup and recovery. The Lambda function, written in Python, employs the Boto3 library for AWS SDK integration, and it utilizes the AWS Simple Notification Service (SNS) for event-driven notifications.**
 
+For a more detailed explanation of the AWS framework, please refer to the following [system diagram](https://github.com/AutomatedBackupRecoveryTesting/ProjectOverview/blob/main/ABRT_Project_System_Diagram.png).
+
 # System Selection
 As a result of the fact that most of the client’s operations are hosted on AWS, the proposed solution should also be hosted on AWS. Furthermore, a DynamoDB table must be created for the purposes of backup and restore testing. AWS Backup will handle the brunt of the backup and restore operations, and in order to automate these operations, AWS Lambda will need to be employed. SNS backup should also be incorporated into the framework so that the user can receive updates about the status of Backup and Restore jobs once they are completed. 
 
