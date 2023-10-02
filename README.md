@@ -18,6 +18,8 @@ As a result of the fact that most of the client’s operations are hosted on AWS
 
 The minimum viable product for this project will be a working AWS CloudFormation template which can be directly imported into the AWS environment for testing purposes. For the sake of keeping things as simple as possible in the creation of this framework, the validation criteria for AWS Lambda to employ when it attempts to validate the restore of the AWS Backup job will be limited to validating that the status of the restored DynamoDB table returns as “ACTIVE.” A stretch goal for this project will be determining other criteria that could be employed to validate the client’s databases in real-life disaster scenarios. Ultimately, the proposed solution may serve as a framework for the client to further “hand-fit” to their exact needs in validating their daily DB backups. 
 
+To manage all tasks related to the design and creation of the AWS framework, as well as any other tasks related to the creation and editing of relevant documentation for the project, [GitHub Projects](https://github.com/orgs/AutomatedBackupRecoveryTesting/projects/1/views/1) will be used. 
+
 # About the Project Owner 
 This project was scoped, developed, and written by Elodie Rebesque. 
 
