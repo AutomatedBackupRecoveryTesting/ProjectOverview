@@ -20,6 +20,13 @@ The minimum viable product for this project will be a working AWS CloudFormation
 
 To manage all tasks related to the design and creation of the AWS framework, as well as any other tasks related to the creation and editing of relevant documentation for the project, [GitHub Projects](https://github.com/orgs/AutomatedBackupRecoveryTesting/projects/1/views/1) will be used. 
 
+# Project Deliverables
+1. [Disaster Recovery SOP](https://docs.google.com/document/d/134BKGJC0GGLEFZaAlhS-TpnfAJQt9G_y8yzPOLMjgMo/edit?usp=sharing) - Summarizes the client's existing second-level recovery procedure
+2. AWS CloudFormation Template Code - See [CloudFormationTemplate Repo](https://github.com/AutomatedBackupRecoveryTesting/CloudFormationTemplate) 
+3. AWS Lambda Function Code - See [LambdaFunction Repo](https://github.com/AutomatedBackupRecoveryTesting/LambdaFunction)
+4. [Project Presentation Slides](https://docs.google.com/presentation/d/1NBKmaXIWkKxM6ZueqAklBSy1j14hkImGL3CYffFkavk/edit?usp=sharing) - Meme included! :)
+5. [Presentation Recording](https://zoom.us/rec/share/m7TutNfN4g_ICvy5SYJUKvRWSxR__aeKGW7VYx7n1NWm89PPicVK24OWslJGKfdD.9cQO-6o_5XjfPaFB)
+
 # About the Project Owner 
 This project was scoped, developed, and written by Elodie Rebesque. 
 
@@ -27,3 +34,6 @@ This project was scoped, developed, and written by Elodie Rebesque.
 
 [LinkedIn profile](https://www.linkedin.com/in/elodierebsq/)
 
+Elodie graduated from Washington University in St. Louis this past May with a degree in Mechanical Engineering. Originally from Palo Alto, CA, she claims to have grown up in a "tech incubator" which ultimately influenced her decision to pursue a career in Cybersecurity. Well, that, and the prospect of a never-ending supply of challenging problems to solve that the industry provides. Her ultimate goal is to become a Cybersecurity Product Manager, as her love for problem-solving can only be matched by her love of building camaraderie among technical and non-technical parties, leading others, and being part of a diverse, supportive team. In June, Elodie began her Cybersecurity journey as an ops student at Code Fellows, and as an Operations Strategist at InsideMaps Inc., the "client" of her case study.
+
+<b> "The combination of learning new material both inside the virtual classroom and outside of it," </b> she says, <b> "has been a real treat - and I’m excited to show you all what I have come up with in my first big project!" </b>
